@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_PASSWORD: password
     volumes:
-      - "dbdata://var/lib/postgresql/data"
+      - "dbdata:/var/lib/postgresql/data"
   pgadmin:
     image: dpage/pgadmin4:4.3
     environment:
