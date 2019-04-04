@@ -31,11 +31,12 @@ You will be asked for the DB password, so type "password" and click "OK".
 docker-compose down
 ```
 
-The DB and pgAdmin data will be stored in the dedicated Docker volumes, so they will be still there when you run `docker-compose up` next time.
+The DB and pgAdmin data will be preserved in the dedicated Docker volumes, so they will be still there when you run `docker-compose up` next time.
 
 ## Notice
 
-Because pgAdmin4 runs on the server (i.e. Docker container) rather than your desktop, when you try to select local file(s) on pgAdmin4, you must upload it first.
+* Because pgAdmin4 runs on the server (i.e. Docker container) rather than your desktop, when you try to select local file(s) on pgAdmin4, you must upload it first.
+* If you plan to deploy this repo to the host that publically available, I strongly recommend to change default password to the strong one ASAP.
 
 ## License
 
