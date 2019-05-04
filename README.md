@@ -12,7 +12,7 @@ Using this repo, you can setup PostgreSQL learning environment right away withou
 * Basic knowledge of Docker
 
 ## How to use
-1. Run the following command in repo's directory:
+1. Run the following command in the repo's directory:
 ```
 $ docker-compose up
 ```
@@ -24,7 +24,7 @@ It may take for a while when you run that command for the first time.
 User: admin@example.com
 Password: password
 ```
-You will be asked for the DB password, so type "password" and click "OK".
+You will be asked for the DB password, so type `password` literally and click "OK".
 
 4. When you are done, run this command in repo's directory to shut the DB and pgAdmin server down.
 ```
