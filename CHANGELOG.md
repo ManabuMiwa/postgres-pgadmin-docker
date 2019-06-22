@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.04
+
+Upgrade pgAdmin to 4.8
+
 ## 1.03
 
 Upgrade pgAdmin to 4.6
