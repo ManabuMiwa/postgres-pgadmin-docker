@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.06
+
+Upgrade pgAdmin to 4.12
+
 ## 1.05
 
 Upgrade postgres to 11.5
