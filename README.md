@@ -5,7 +5,7 @@ Using this repo, you can setup PostgreSQL learning environment right away withou
 
 ## Features
 
-* Postgres 11 and pgAdmin4 installed out of the box
+* Postgres 12 and pgAdmin4 installed out of the box
 
 ## Requirements
 * A computer that Docker and Docker Compose are installed

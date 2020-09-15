@@ -1,7 +1,7 @@
 {
     "Servers": {
         "Postgres": {
-            "Name": "PostgreSQL 11",
+            "Name": "PostgreSQL 12",
             "Port": 5432,
             "Group": "Servers",
             "SSLMode": "prefer",
