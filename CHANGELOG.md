@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.2.1
+
+* Fix DB name and documentation
+## 1.2
+
+* Upgrade Postgres to 13.3
+* Upgrade pgAdmin to 5.2
 ## 1.1
 
 * Upgrade Postgres to 12.4
