@@ -5,7 +5,7 @@ Using this repo, you can setup PostgreSQL learning environment right away withou
 
 ## Features
 
-* Postgres 12 and pgAdmin4 installed out of the box
+* Postgres 13 and pgAdmin4 installed out of the box
 
 ## Requirements
 * A computer that Docker and Docker Compose are installed
@@ -50,7 +50,7 @@ In case of the files which are too large to upload, you can copy such files to t
 docker cp AdventureWorks.tar postgres-pgadmin-docker_pgadmin_1:/var/lib/pgadmin/storage/admin_example.com
 ```
 
-* If you plan to deploy this repo to the host that publically available, I strongly recommend to change default password to the strong one ASAP.
+* If you plan to deploy this repo to a host that is publically available, I strongly recommend to change default password to the strong one ASAP.
 
 ## License
 
