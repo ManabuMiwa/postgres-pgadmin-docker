@@ -2,13 +2,13 @@ version: "3"
 
 services:
   db:
-    image: postgres:13.3
+    image: postgres:17.6
     environment:
       POSTGRES_PASSWORD: password
     volumes:
       - "dbdata:/var/lib/postgresql/data"
   pgadmin:
-    image: dpage/pgadmin4:5.2
+    image: dpage/pgadmin4:9.8
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@example.com
       PGADMIN_DEFAULT_PASSWORD: password
