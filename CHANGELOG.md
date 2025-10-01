@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.3
+
+* Upgrade Postgres to 17.6
+* Upgrade pgAdmin to 9.8
+
 ## 1.2.1
 
 * Fix DB name and documentation
